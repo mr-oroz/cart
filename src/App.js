@@ -35,7 +35,7 @@ class App extends Component {
       }
     })
   }
- 
+  
   onAddToCart = (id) => {
     const check = this.state.basket.every(elem => elem.cart.id !== id);
     if (check) {
